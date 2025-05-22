@@ -5,23 +5,16 @@ import { motion } from 'motion/react'
 import { Spotlight } from '@/components/ui/spotlight-new'
 
 function Hero() {
-  const [showAnim, setShowAnim] = React.useState(false);
-
-  React.useEffect(() => {
-    const timeout = setTimeout(() => setShowAnim(true), 650);
-    return () => clearTimeout(timeout);
-  }, []);
-  
   return (
     <div
       id='home'
-      className='w-11/12 max-w-3xl h-screen mx-auto pt-16 text-center flex items-center justify-center flex-col gap-2 sm:gap-4 px-2 lg:px-0'
+      className='w-11/12 max-w-3xl h-screen mx-auto pt-6 text-center flex items-center justify-center flex-col gap-2 sm:gap-4 px-2 lg:px-0'
     >
       <Spotlight />
 
       <motion.div
         initial={{ scale: 0.8, opacity: 0 }}
-        whileInView={showAnim ? { scale: 1, opacity: 1 } : {}}
+        whileInView={{ scale: 1, opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.2, type: 'spring', stiffness: 100 }}
         viewport={{ once: true }}
       >
@@ -35,7 +28,7 @@ function Hero() {
 
       <motion.h3
         initial={{ y: -20, opacity: 0 }}
-        whileInView={showAnim ? { y: 0, opacity: 1 } : {}}
+        whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.6 }}
         viewport={{ once: true }}
         className='text-lg sm:text-xl mt-2 md:mt-4'
@@ -45,7 +38,7 @@ function Hero() {
 
       <motion.div
         initial={{ y: -30, opacity: 0 }}
-        whileInView={showAnim ? { y: 0, opacity: 1 } : {}}
+        whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8, delay: 1 }}
         viewport={{ once: true }}
         className='font-semibold text-3xl sm:text-4xl md:text-5xl py-1 md:py-2 bg-gradient-to-b from-teal-50 via-teal-200 to-teal-500 bg-clip-text text-transparent'
@@ -56,7 +49,7 @@ function Hero() {
 
       <motion.p
         initial={{ opacity: 0 }}
-        whileInView={showAnim ? { opacity: 1 } : {}}
+        whileInView={{ opacity: 1 }}
         transition={{ duration: 0.6, delay: 1.4 }}
         viewport={{ once: true }}
         className='max-w-2xl mx-auto text-teal-100 text-sm sm:text-[16px]'
@@ -69,7 +62,7 @@ function Hero() {
       >
         <motion.div
           initial={{ y: 30, opacity: 0 }}
-          whileInView={showAnim ? { y: 0, opacity: 1 } : {}}
+          whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 1, delay: 1.6, type: 'spring', stiffness: 100 }}
           viewport={{ once: true }}
         >
@@ -84,7 +77,7 @@ function Hero() {
 
         <motion.div
           initial={{ y: 30, opacity: 0 }}
-          whileInView={showAnim ? { y: 0, opacity: 1 } : {}}
+          whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 1, delay: 1.8, type: 'spring', stiffness: 100 }}
           viewport={{ once: true }}
         >

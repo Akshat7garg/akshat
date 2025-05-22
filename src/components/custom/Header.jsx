@@ -31,7 +31,7 @@ function Header() {
     return (
         <div
             className={`h-16 w-full px-4 sm:px-8 md:px-[8%] flex items-center justify-between fixed z-50 border-b-2 transition-all duration-100 ease-in-out 
-            ${isScroll ? 'blur-bg backdrop-blur-xl bg-[rgb(0,0,0,0.9)] border-teal-700 py-4' : 'border-transparent pt-8'}`}
+            ${isScroll ? 'blur-bg backdrop-blur-xl bg-[rgb(0,0,0,0.9)] border-teal-700 py-4' : 'border-transparent pt-4 md:pt-8'}`}
         >
             <a
                 href='#home'
