@@ -2,6 +2,8 @@
 
 Welcome to **Akshat Garg's Portfolio Website** — a personal site showcasing projects, skills, and experiences as a full-stack software engineer passionate about crafting innovative digital experiences.
 
+---
+
 [![Screenshot](https://akshat-nine.vercel.app/preview.png)](https://akshat-nine.vercel.app)
 
 ## 🌐 Live Preview
