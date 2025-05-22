@@ -151,7 +151,7 @@ const projects = {
             link: "https://github.com/Akshat7garg/journeycraft-ai"
         },
         {
-            title: "WisperNet",
+            title: "WhisperNet",
             description: "Decentralized P2P chat app leveraging WebRTC and WebSocket for real-time encrypted messaging.",
             stack: [
                 "Next.js",
