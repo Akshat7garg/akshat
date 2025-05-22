@@ -13,7 +13,7 @@ function Hero() {
       <Spotlight />
 
       <motion.div
-        initial={{ scale: 0 }}
+        initial={{ scale: 0.8 }}
         whileInView={{ scale: 1 }}
         transition={{ duration: 1, delay: 0.2, type: 'spring', stiffness: 100 }}
         viewport={{ once: true }}
