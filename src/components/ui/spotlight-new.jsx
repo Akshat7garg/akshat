@@ -3,9 +3,9 @@ import React from "react";
 import { motion } from "motion/react";
 
 export const Spotlight = ({
-  gradientFirst = "radial-gradient(68.54% 68.72% at 55.02% 31.46%, hsla(173, 83%, 83%, .08) 0, hsla(173, 83%, 53%, .02) 50%, hsla(173, 83%, 43%, 0) 80%)",
-  gradientSecond = "radial-gradient(50% 50% at 50% 50%, hsla(173, 83%, 83%, .06) 0, hsla(173, 83%, 53%, .02) 80%, transparent 100%)",
-  gradientThird = "radial-gradient(50% 50% at 50% 50%, hsla(173, 83%, 83%, .04) 0, hsla(173, 83%, 43%, .02) 80%, transparent 100%)",
+  gradientFirst = "radial-gradient(68.54% 68.72% at 55.02% 31.46%, hsl(164, 100%, 83%, .08) 0, hsla(164, 100%, 53%, .02) 50%, hsla(164, 100%, 43%, 0) 80%)",
+  gradientSecond = "radial-gradient(50% 50% at 50% 50%, hsl(164, 100%, 83%, .06) 0, hsla(164, 100%, 53%, .02) 80%, transparent 100%)",
+  gradientThird = "radial-gradient(50% 50% at 50% 50%, hsl(164, 100%, 83%, .04) 0, hsla(164, 100%, 43%, .02) 80%, transparent 100%)",
   translateY = -350,
   width = 560,
   height = 1380,

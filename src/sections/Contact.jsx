@@ -52,7 +52,7 @@ function Contact() {
       transition={{ duration: 1 }}
       viewport={{ once: true }}
       id='contact'
-      className='relative scroll-mt-16 w-full px-8 md:px-[8%] py-8 overflow-x-clip'
+      className='relative scroll-mt-16 w-full px-4 sm:px-8 md:px-[8%] py-8 overflow-x-clip'
     >
       <div
         className='absolute -z-1 top-1/3 left-1/2 w-80 h-80 bg-teal-600 opacity-30 rounded-full blur-3xl transform -translate-x-1/2 pointer-events-none'

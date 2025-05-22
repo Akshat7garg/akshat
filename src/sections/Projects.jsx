@@ -11,7 +11,7 @@ function Projects() {
       transition={{ duration: 1 }}
       viewport={{ once: true }}
       id='projects'
-      className='relative scroll-mt-16 w-full px-8 md:px-[8%] py-8 overflow-x-clip'
+      className='relative scroll-mt-16 w-full px-4 sm:px-8 md:px-[8%] py-8 overflow-x-clip'
     >
       <div
         class="absolute -z-100 top-10 left-10 w-72 h-72 bg-teal-600 rounded-full opacity-30 blur-3xl pointer-events-none"

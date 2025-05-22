@@ -19,7 +19,7 @@ function Footer() {
         </p>
       </div>
 
-      <div className='text-center lg:flex items-center text-teal-100 justify-between border-t-2 border-teal-700 mx-8 sm:mx-[8%] mt-12 py-6'>
+      <div className='text-center lg:flex items-center text-teal-100 justify-between border-t-2 border-teal-700 mx-4 sm:mx-8 md:mx-[8%] mt-12 py-6'>
         <p>© 2025 {details.fullName}. All rights reserved</p>
 
         <div className='flex items-center justify-center gap-4 sm:gap-8 mt-4 lg:mt-0'>

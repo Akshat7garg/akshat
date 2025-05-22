@@ -8,7 +8,7 @@ function Hero() {
   return (
     <div
       id='home'
-      className='w-11/12 max-w-3xl h-screen mx-auto pt-18 text-center flex items-center justify-center flex-col gap-2 sm:gap-4 px-4 lg:px-0'
+      className='w-11/12 max-w-3xl h-screen mx-auto pt-16 text-center flex items-center justify-center flex-col gap-2 sm:gap-4 px-2 lg:px-0'
     >
       <Spotlight />
 
@@ -21,6 +21,7 @@ function Hero() {
         <img
           src={introduction.avatarURL}
           alt={introduction.avatarAlt}
+            loading='lazy'
           className='h-28 sm:h-32 rounded-full'
         />
       </motion.div>
@@ -51,7 +52,7 @@ function Hero() {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.6, delay: 1.4 }}
         viewport={{ once: true }}
-        className='max-w-2xl mx-auto text-teal-100'
+        className='max-w-2xl mx-auto text-teal-100 text-sm sm:text-[16px]'
       >
         {introduction.tagline}
       </motion.p>

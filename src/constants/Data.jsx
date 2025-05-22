@@ -1,7 +1,7 @@
 import { Linkedin, Github, Twitter, CodeXml, GraduationCap, TriangleAlert, Mail, MessageCircleMore } from "lucide-react";
-import profile from "@/assets/profile.png";
-import profile1 from "@/assets/profile1.png";
-import error from "@/assets/error.png";
+import profile from "@/assets/profile.webp";
+import profile1 from "@/assets/profile1.webp";
+import error from "@/assets/error.webp";
 
 const socialLinks = [
     {

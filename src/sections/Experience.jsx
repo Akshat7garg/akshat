@@ -10,7 +10,7 @@ function Experience() {
       transition={{ duration: 1 }}
       viewport={{ once: true }}
       id='experiences'
-      className='relative scroll-mt-16 w-full px-8 md:px-[8%] py-8 overflow-x-clip'
+      className='relative scroll-mt-16 w-full px-4 sm:px-8 md:px-[8%] py-8 overflow-x-clip'
     >
       <div
         className='absolute -z-1 top-1/3 left-1/2 w-80 h-80 bg-teal-600 opacity-30 rounded-full blur-3xl transform -translate-x-1/2 pointer-events-none'
@@ -63,6 +63,7 @@ function Experience() {
           <img
             src={experiences.error.image}
             alt={experiences.error.alt}
+            loading='lazy'
             className='w-full drop-shadow-[0px_0px_6px_#000]'
           />
         </motion.div>

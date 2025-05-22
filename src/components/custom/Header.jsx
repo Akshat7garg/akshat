@@ -30,7 +30,7 @@ function Header() {
 
     return (
         <div
-            className={`w-full px-8 md:px-[8%] flex items-center justify-between fixed z-50 border-b-2 transition-all duration-300 ease-in-out 
+            className={`h-16 w-full px-4 sm:px-8 md:px-[8%] flex items-center justify-between fixed z-50 border-b-2 transition-all duration-100 ease-in-out 
             ${isScroll ? 'blur-bg backdrop-blur-xl bg-[rgb(0,0,0,0.9)] border-teal-700 py-4' : 'border-transparent pt-8'}`}
         >
             <a
@@ -42,7 +42,7 @@ function Header() {
             </a>
 
             <div
-                className={`hidden md:flex items-center justify-center gap-5 xl:gap-8 text-teal-100 py-2 px-8 xl:px-12 border-2 rounded-xl lg:rounded-full transition-all duration-300 ease-in-out 
+                className={`hidden md:flex items-center justify-center gap-5 xl:gap-8 text-teal-100 py-2 px-8 xl:px-12 border-2 rounded-xl lg:rounded-full transition-all duration-100 ease-in-out 
                 ${!isScroll ? 'border-teal-700' : 'border-transparent'}`}
             >
                 <a

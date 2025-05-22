@@ -18,7 +18,7 @@ function About() {
       transition={{ duration: 1 }}
       viewport={{ once: true }}
       id='about'
-      className='relative scroll-mt-16 w-full px-8 md:px-[8%] py-8 overflow-x-clip'
+      className='relative scroll-mt-16 w-full px-4 sm:px-8 md:px-[8%] py-8 overflow-x-clip'
     >
       <div
         class="absolute -z-20 top-10 left-10 w-72 h-72 bg-teal-600 rounded-full opacity-30 blur-3xl pointer-events-none"
@@ -64,6 +64,7 @@ function About() {
           <img
             src={about.avatarURL}
             alt={about.avatarAlt}
+            loading='lazy'
             className='w-full rounded-xl'
           />
         </motion.div>
