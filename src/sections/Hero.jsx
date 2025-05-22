@@ -13,15 +13,15 @@ function Hero() {
       <Spotlight />
 
       <motion.div
-        initial={{ scale: 0.8 }}
-        whileInView={{ scale: 1 }}
-        transition={{ duration: 1, delay: 0.2, type: 'spring', stiffness: 100 }}
+        initial={{ scale: 0.8, opacity: 0 }}
+        whileInView={{ scale: 1, opacity: 1 }}
+        transition={{ duration: 0.6, delay: 0.2, type: 'spring', stiffness: 100 }}
         viewport={{ once: true }}
       >
         <img
           src={introduction.avatarURL}
           alt={introduction.avatarAlt}
-            loading='lazy'
+          loading='lazy'
           className='h-28 sm:h-32 rounded-full'
         />
       </motion.div>
@@ -29,7 +29,7 @@ function Hero() {
       <motion.h3
         initial={{ y: -20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.6, delay: 0.8 }}
+        transition={{ duration: 0.6, delay: 0.6 }}
         viewport={{ once: true }}
         className='text-lg sm:text-xl mt-2 md:mt-4'
       >
