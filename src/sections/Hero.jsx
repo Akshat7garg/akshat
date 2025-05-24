@@ -8,7 +8,7 @@ function Hero() {
   const [showAnim, setShowAnim] = React.useState(false);
 
   React.useEffect(() => {
-    const timeout = setTimeout(() => setShowAnim(true), 1100);
+    const timeout = setTimeout(() => setShowAnim(true), 200);
     return () => clearTimeout(timeout);
   }, []);
 
